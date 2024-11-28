@@ -1,0 +1,219 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #fffeef;
+}
+
+.role{
+	margin: 1% 2% 5% 5%;
+}
+
+.nva{
+	width: 100%;
+	height: 52px;
+	background-color:  #fffeef;
+	/* 居中设置 */
+	padding-left: 30%;
+	margin: 5px auto;
+	position: sticky;
+	top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffeef;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+	line-height: 36px;
+	font-size: 18px;
+    padding: 8px 39px;
+    text-decoration: none;
+}
+/* 鼠标移动变色 */
+li a:hover:not(.active) {
+    background-color: lightpink;
+}
+/* 当前页面提示变色 */
+.active {
+    background-color: pink; 
+}
+
+	
+.ducele{
+	display: flex;
+	flex-direction: row;
+}
+.ducele .lefttext{
+	margin: 10px;
+	width: 300px;
+	height: 320px;
+}
+.ducele .rightpic{
+	margin: 10px;
+	width: 800px;
+	height: 320px;
+}
+/* .rightpic:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease;
+} */
+
+
+.duceri{
+	display: flex;
+	flex-direction: row;
+}
+.duceri .righttext{
+	margin: 10px;
+	width: 300px;
+	height: 320px;
+}
+.duceri .leftpic{
+	margin: 10px;
+	width: 800px;
+	height: 320px;
+}
+/* .leftpic:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease;
+} */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#d1{
+	text-indent: 2em;
+	margin-bottom: 5px;
+}
+#mei{
+	color: #b99fc5;
+}
+#kevin{
+	color: #59c6c8;
+	text-align: center;
+}
+#kevin1{
+	color: #999999;
+}
+#red{
+	color: #ff4b4e;
+}
+#elysia{
+	color: #ffaaff;
+	text-align: center;
+}
+#aponia{
+	color: #bfb200;
+}
+#eden{
+	color: #ffb700;
+	text-align: center;
+}
+#villv{
+	color: #05fff7;
+	text-align: center;
+}
+#kalpas{
+	color: #ff6e35;
+	text-align: center;
+}
+#su{
+	color: #80ff89;
+	text-align: center;
+}
+#sakura{
+	color: #f0a2ff;
+	text-align: center;
+}
+#kosma{
+	color: #ff6701;
+	text-align: center;
+}
+#mobius{
+	color: #40810a;
+	text-align: center;
+}
+#griseo{
+	color: #07e1ec;
+	text-align: center;
+}
+#hua{
+	color: #94004a;
+	text-align: center;
+}
+/* .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+.modal-content {
+    -webkit-animation-name: large;
+    -webkit-animation-duration: 0.6s;
+    animation-name: large;
+    animation-duration: 0.6s;
+    cursor: pointer;
+} */
+
+/*兼容性写法， 确保在webkit内核的浏览器能正常使用*/
+/* @-webkit-keyframes large {
+    from {
+        -webkit-transform: scale(0);
+    }
+
+    to {
+        -webkit-transform: scale(1) ;
+    }
+}
+
+@keyframes large {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+} */
+
+/* 关闭按钮 */
+/* .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: burlywood;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+} */

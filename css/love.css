@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: blanchedalmond;
+}
+
+.box{
+	margin: 1% 2% 5% 5%;
+}
+.nva{
+	width: 100%;
+	height: 52px;
+	background-color:blanchedalmond;
+	/* 居中设置 */
+	padding-left: 30%;
+	margin: 5px auto;
+	position: sticky;
+	top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+	line-height: 36px;
+	font-size: 18px;
+    padding: 8px 39px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightpink;
+}
+
+.active {
+    background-color: pink; 
+}
+
+	
+/* img:hover{
+	transform: scale(1.1);
+	transition: 0.5s ease;
+} */
+
+.center {
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top:10px;
+	 background: -webkit-linear-gradient(left, #f785ff, #fc9bff) 0 0 no-repeat;/*设置线性渐变*/
+	-webkit-background-size: 160px;                        /*设置背景大小*/
+	-webkit-background-clip: text;                            /*背景被裁剪到文字*/
+	-webkit-text-fill-color: rgba(134, 134, 134, 0.3);        /*设置文字的填充颜色*/
+	-webkit-animation: shine 4s infinite;                    /*设置动画*/
+
+}
+ /*创建动画*/
+@-webkit-keyframes shine{  
+		    0%{
+		        background-position: 0 0;
+		    }
+		    100%{
+		        background-position: 100% 100%;
+		    }
+}
+
+.syn{
+	align-items: center;
+	border-left: 12px solid #4f9cee;
+	display: flex;
+    font-size: 20px;
+	font-size: 22px;
+	/* line-height: 24px; */
+	margin: 35px 0 15px -30px;
+}
+.line{
+	background: #e0e0e0;
+	flex: auto;
+	height: 1px;
+}
+.content{
+	margin-bottom: 15px;
+	text-indent: 2em;
+}

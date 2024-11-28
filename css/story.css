@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: blanchedalmond;
+}
+
+.story{
+	margin: 1% 2% 5% 5%;
+}
+
+.nva{
+	width: 100%;
+	height: 52px;
+	background-color: blanchedalmond;
+	/* 居中设置 */
+	padding-left: 30%;
+	margin: 5px auto;
+	position: sticky;
+	top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+	line-height: 36px;
+	font-size: 18px;
+    padding: 8px 39px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightpink;
+}
+
+.active {
+    background-color: pink; 
+}
+
+
+
+.time-axis{
+	width: 700px;
+	margin: 5px auto;
+}
+/* 标题 */
+.time-axis .left{
+	width: 640px;
+	float: right;
+	border-left: 2px solid #fbb7ff;
+	position: relative;
+}
+/* 内容 */
+.time-axis .right{
+	width: 640px;
+	float: right;
+	border-left: 2px solid #fbb7ff;
+	/* background-color: beige; */
+	position: relative;
+	
+}
+/* 点 */
+.time-axis .dot{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	display: block;
+	border: 2px solid #fbb7ff;
+	border-radius: 7px;
+	position: absolute;
+	top: 50%;
+	margin-top: -7px;
+}
+.time-axis .right .dot{
+	left: -9px;
+}
+
+.time-axis .right .box1{
+	margin: 10px;
+}
+/* 文字 */
+.time-axis .con{
+	text-indent: 2em;
+	padding: 15px;
+	word-wrap: break-word;
+}
+.time-axis .right .con{
+	background-color: beige;
+	font-family: "微软雅黑";
+}
+.time-axis .left .con{
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "微软雅黑";
+	/*设置动画*/
+	animation: shine 2.4s infinite;
+	 -webkit-animation: shine 2.4s infinite;
+}
+/*创建动画*/
+@-webkit-keyframes shine{
+	0%,100%{ 
+		color:#fff;text-shadow:0 0 10px #ffaaff,0 0 10px #ff55ff; 
+		}
+	 50%{ 
+		 text-shadow:0 0 10px #ffaaff,0 0 40px #ffaaff; 
+		 }
+}
+/* #sty{
+	font-size: 40px;
+	font-family: Arial;
+	font-weight: 600;
+	margin: 5px;
+	color: #fbb7ff;
+	background-color: beige;
+} */
+.boxpic{
+	
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#del{
+	text-decoration: line-through;
+	background-color: beige;
+}
